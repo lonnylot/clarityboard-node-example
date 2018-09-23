@@ -1,0 +1,31 @@
+{
+  "name": "clarityboard-example",
+  "version": "1.0.0",
+  "description": "An example of using the Clarityboard Node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lonnylot/clarityboard-node-example.git"
+  },
+  "keywords": [
+    "clarityboard",
+    "dashboard",
+    "example"
+  ],
+  "author": "Lonny Kapelushnik <lonny@clarityboard.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lonnylot/clarityboard-node-example/issues"
+  },
+  "homepage": "https://github.com/lonnylot/clarityboard-node-example#readme",
+  "dependencies": {
+    "bottleneck": "^2.11.0",
+    "clarityboard": "^1.0.2",
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "replace-in-file": "^3.4.2"
+  }
+}
